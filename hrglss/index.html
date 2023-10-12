@@ -51,18 +51,56 @@
             bottom: 0;
             width: 100%;
         }
-        img {
+        
+        div.filepath {
+            display: inline-block;
+            width: 700px;
+            margin: auto;
+            border: 3px solid #90bede;
+            background-color: #90bede;
+        }
+        div.navbuttons {
             width: 50px;
-            height: auto;
+            margin: 1rem;
+            padding: 1px;
+        }
+        .flex-parent-element {
+            display: flex;
+            width: 100%;
+        }   
+
+        .flex-child-element {
+            flex: 1;
+            border: 2px solid blueviolet;
+            margin: 10px;
         }
 
+        .flex-child-element:first-child {
+            margin-right: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <img src="images/icons/109.ico">
-        
-        hrglss
+        <div class="flex-parent-element">
+            <div class="navbuttons">
+                <img src="images/used-icons/leftarrow.ico"
+                width="20" 
+                height="100%"/>  
+                <img src="images/used-icons/rightarrow.ico"
+                width="20" 
+                height="100%"/>  
+            </div>
+            <div class="flex-child-element">
+                <img src="images/icons/109.ico"
+                width="20" 
+                height="100%"/>
+                hrglss
+            </div>
+            <div class="flex-child-element">
+                search
+            </div>
+        </div>
     </div>
     <div class="sidebar">
         <div class="file-item">Desktop</div>
@@ -71,12 +109,6 @@
         <div class="file-item">Computer</div>
     </div>
     <div class="main-content">
-        <h1>Main Content Area</h1>
-        <img src="images/icons/36.ico">
-        <img src="images/icons/37.ico">
-        <img src="images/icons/38.ico">
-        <img src="images/icons/39.ico">
-        <img src="images/icons/40.ico">
     </div>
     <div class="footer">
         Footer Area
