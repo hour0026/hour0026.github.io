@@ -6,7 +6,7 @@
     <title>hrglss</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #c0c0c0;
             margin: 0;
             padding: 0;
@@ -34,8 +34,9 @@
         }
 
         .file-item {
-            padding: 10px;
+            padding: 2px;
             border-bottom: 1px solid #dddddd;
+            font-size: 8px;
         }
 
         .file-item:hover {
@@ -52,26 +53,38 @@
             width: 100%;
         }
         
-        div.filepath {
-            display: inline-block;
-            width: 700px;
+        .flex-header {
+            display: flex;
+            width: 100%;
             margin: auto;
-            border: 3px solid #90bede;
             background-color: #90bede;
         }
-        div.navbuttons {
-            width: 50px;
+        .flex-filepath {
+            display: flex;
+            width: 55%;
+            margin: auto;
+            background-color: #d3e3ef;
+        }
+        .flex-search {
+            display: flex;
+            width: 30% ;
+            margin: auto;
+            background-color: #d3e3ef;
+        }
+        .flex.navbuttons {
+            display: flex;
+            width: 5%;
             margin: 1rem;
-            padding: 1px;
         }
         .flex-parent-element {
             display: flex;
-            width: 100%;
+            width: 
         }   
 
         .flex-child-element {
             flex: 1;
-            border: 2px solid blueviolet;
+            border: 1px solid rgb(135, 176, 220);
+            background-color: rgb(135, 176, 220);
             margin: 10px;
         }
 
@@ -82,28 +95,33 @@
 </head>
 <body>
     <div class="header">
-        <div class="flex-parent-element">
+        <div class="flex-header">
             <div class="navbuttons">
                 <img src="images/used-icons/leftarrow.ico"
                 width="20" 
-                height="100%"/>  
+                height="20"/>  
                 <img src="images/used-icons/rightarrow.ico"
                 width="20" 
-                height="100%"/>  
+                height="20"/>  
             </div>
-            <div class="flex-child-element">
+            <div class="flex-filepath">
                 <img src="images/icons/109.ico"
                 width="20" 
-                height="100%"/>
+                height="20"/>
                 hrglss
             </div>
-            <div class="flex-child-element">
+            <div class="flex-search">
                 search
             </div>
         </div>
     </div>
     <div class="sidebar">
-        <div class="file-item">Desktop</div>
+        <div class="file-item">
+            <img src="images/icons/103.ico"
+            width="7"
+            height="7       ">
+            Desktop
+        </div>
         <div class="file-item">hrglss</div>
         <div class="file-item">Public</div>
         <div class="file-item">Computer</div>
