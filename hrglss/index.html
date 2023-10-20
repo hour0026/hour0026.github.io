@@ -31,6 +31,7 @@
         .main-content {
             margin-left: 200px;
             padding: 20px;
+            background-color: #ffffff;
         }
 
         .file-item {
@@ -44,7 +45,7 @@
         }
 
         .footer {
-            background-color: #0054a6;
+            background-color: #4e9be8;
             color: #ffffff;
             text-align: center;
             padding: 10px;
@@ -57,7 +58,6 @@
             display: flex;
             width: 100%;
             margin: auto;
-            background-color: #90bede;
         }
         .flex-filepath {
             display: flex;
@@ -81,6 +81,10 @@
             width: 
         }   
 
+        .nav {
+            background-color: #D1DCED;
+        }
+
         .flex-child-element {
             flex: 1;
             border: 1px solid rgb(135, 176, 220);
@@ -90,6 +94,22 @@
 
         .flex-child-element:first-child {
             margin-right: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+        }
+
+        h4{
+            font-size: 12px;
+            color: blue;
+            margin: auto;
+            font-style: unset;
         }
     </style>
 </head>
@@ -114,8 +134,18 @@
                 search
             </div>
         </div>
+        <div class="nav">
+            <ul>
+                <li>File</li>
+                <li>Edit</li>
+                <li>View</li>
+                <li>Tools</li>
+                <li>Help</li>
+            </ul>
+        </div>
     </div>
     <div class="sidebar">
+        <h4>Folders</h4>
         <div class="file-item">
             <img src="images/icons/103.ico"
             width="7"

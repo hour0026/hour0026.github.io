@@ -32,14 +32,12 @@ body {
 .file-item:hover {
     background-color: #f0f0f0;
 }
-
+s
 .footer {
-    background-color: #0054a6;
+    background-color: #b0cde9;
     color: #ffffff;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
-
-    
