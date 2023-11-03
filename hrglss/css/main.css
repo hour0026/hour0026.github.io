@@ -1,15 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #c0c0c0;
     margin: 0;
     padding: 0;
 }
 
 .header {
-    background-color: #0054a6;
+    background-color: #4e9be8;
     color: #ffffff;
     padding: 10px;
-    text-align: center;
+    text-align: left;
+    opacity: 0.6;
+    
 }
 
 .sidebar {
@@ -17,6 +19,94 @@ body {
     background-color: #ffffff;
     float: left;
     height: 100vh;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.file-item {
+    padding: 2px;
+    border-bottom: 1px solid #dddddd;
+    font-size: 8px;
+}
+
+.file-item:hover {
+    background-color: #f0f0f0;
+}
+
+.footer {
+    background-color: #4e9be8;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.flex-header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.flex-filepath {
+    display: flex;
+    width: 55%;
+    margin: auto;
+    background-color: #d3e3ef;
+}
+.flex-search {
+    display: flex;
+    width: 30% ;
+    margin: auto;
+    background-color: #d3e3ef;
+}
+.flex.navbuttons {
+    display: flex;
+    width: 5%;
+    margin: 1rem;
+}
+.flex-parent-element {
+    display: flex;
+    width: 
+}   
+
+.nav {
+    background-color: #D1DCED;
+}
+
+.flex-child-element {
+    flex: 1;
+    border: 1px solid rgb(135, 176, 220);
+    background-color: rgb(135, 176, 220);
+    margin: 10px;
+}
+
+.flex-child-element:first-child {
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+.nav li:hover {
+    background-color: blue;
+
+}
+
+h4{
+    font-size: 12px;
+    color: blue;
+    margin: auto;
+    font-style: unset;
 }
 
 .main-content {
@@ -41,3 +131,4 @@ s
     position: fixed;
     bottom: 0;
     width: 100%;
+}

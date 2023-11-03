@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+    max-width: 70%;
+    margin: auto;
+}
+
+.header {
+    background: url("../images/lone-starfish-wide.jpg");
+    background-size: cover;
+    height: 200px;
+    background-position: center center;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 25px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    background-color: #D4E9E7;
+}
+
+
+nav {
+    width: 100%;
+
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+section ul {
+    padding: 0;
+    list-style-position: inside;
+}
+
+section ul li {
+    font-size: 11px;
+}
+
+.page {
+    background-color: #D4E9E7;
+    margin: auto;
+    padding: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+p {
+    font-size: 11px;
+}
+
+.container {
+    position: relative;
+}
+
+.fcontainer {
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    padding: 25px 15px
+}
+
+.img {
+    width: 160px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    border: #aad4cf;
+    padding-top: 5px;
+    resize: vertical
+}
+
+.site-footer {
+    text-align: right;
+    background-color: #D4E9E7;
+    padding: 15px;
+    font-size: 10px;
+
+}
