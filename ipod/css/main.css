@@ -8,9 +8,9 @@ body {
 }
 .screen{
     position: absolute;  
-    width: 320px;
-    height: 235px;
-    margin-bottom: 334px;
+    width: 352px;
+    height: 262px;
+    margin-bottom: 365px;
 }
 
 #ipod {
@@ -24,7 +24,7 @@ body {
 }
 
 .header img {
-  align-items: right;
+  float: right
 }
 
 .header {
@@ -42,6 +42,10 @@ h4 {
   margin:0;
   margin-top:3px;
   margin-left:5px;
+}
+
+.header img {
+  margin-top:5px;
 }
 
 .lmenu {
