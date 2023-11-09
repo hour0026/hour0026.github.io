@@ -8,9 +8,9 @@ body {
 }
 .screen{
     position: absolute;  
-    width: 298px;
-    height: 220px;
-    margin-bottom: 310px;
+    width: 320px;
+    height: 235px;
+    margin-bottom: 334px;
 }
 
 #ipod {
@@ -20,7 +20,7 @@ body {
 }
 
 .header h4,img{
-  display:inline-block;
+  display: inline-block;
 }
 
 .header img {
