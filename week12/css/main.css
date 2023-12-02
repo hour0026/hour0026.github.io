@@ -1,0 +1,36 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fa-paint-roller {
+    font-size: 10rem;
+    color: crimson;
+}
+
+.max-mar {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main {
+    background-color: antiquewhite;
+}
+
+.head {
+    background-color: blanchedalmond;
+}
+
+.container {
+    background-color: cadetblue;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
