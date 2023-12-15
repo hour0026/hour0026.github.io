@@ -1,0 +1,26 @@
+header{
+    background-color: #ADC6E0;
+}
+
+
+.progbuttons {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin: 10px;
+}
+
+.navbar #search{
+    float: right;
+    margin-right: 10px;
+}
+
+.sort {
+    background-color: #044874;
+}
+
+.sort a{
+    color: white;
+    text-decoration: none;
+}
+

@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <title>Three Star Media - Home</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <header class="site-header">
@@ -15,90 +18,105 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <input type="text" placeholder="Search">
-                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <li><div class="search">
+                        <input type="text" placeholder="Search">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    </div>
                 </ul>
             </nav>
-            <div class="banner">
-                <img src="images/main-banner.jpg" alt="">
+        </header>
+        <div class="banner">
+            <div class="welcome">
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum, mi id congue viverra, ligula nunc lacinia velit, vitae lobortis massa libero eu enim. Nulla rutrum vel eros vitae convallis.</p>
-                <a href="#">Connect with us &#9654</a>
+                <a href="#" class="yellowbutton">Connect with us &#9654</a>
             </div>
-        </header>
+        </div>
         <!-- div for the banner--> 
         <main>
             <!-- div for the about us section --> 
             <section id="about">
                 <div class="aboutus">
-                    <img src="images/about-us.jpg" alt="Picture of an office with a ping-pong table">
-                    <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id consectetur dolor. Aenean vitae porttitor augue. Proin sed dui lacinia, auctor eros sed, faucibus ipsum. Praesent pretium interdum sem vitae laoreet. Aliquam et accumsan metus. Mauris a felis convallis, blandit purus a, porta dolor. Ut auctor cursus suscipit. Suspendisse placerat, mauris ut iaculis vulputate, eros diam tincidunt diam, ut auctor leo diam a nulla. Proin finibus iaculis elit ut varius. Etiam libero est, condimentum id convallis ac, luctus sit amet massa. Pellentesque euismod placerat augue nec maximus. Duis lobortis gravida arcu, feugiat faucibus neque rhoncus sed. Suspendisse lorem libero, vestibulum in euismod vitae, ullamcorper at augue. Vestibulum tortor augue, pretium a ante vel, vestibulum feugiat nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    <div class="image">
+                        <img src="images/about-us.jpg" alt="Picture of an office with a ping-pong table">        
+                    </div>
+                    <div>
+                        <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id consectetur dolor. Aenean vitae porttitor augue. Proin sed dui lacinia, auctor eros sed, faucibus ipsum. Praesent pretium interdum sem vitae laoreet. Aliquam et accumsan metus. 
                     <br>
                     <br>    
-                    Donec ac congue nunc. Integer sit amet sollicitudin nunc, sit amet ultricies nisl. Mauris scelerisque justo nec porttitor commodo. Suspendisse metus nunc, iaculis sit amet dignissim eu, sodales varius mi. Vivamus id tincidunt justo. Fusce et leo tristique ante commodo aliquet at a arcu. Nulla interdum risus dui, a laoreet est finibus sed. Nullam et mauris faucibus, porta erat quis, pulvinar justo. Nulla facilisi. Aliquam erat volutpat. Maecenas vitae lacinia enim. Nullam eleifend sem ut risus posuere eleifend. Aliquam vitae lobortis diam, vitae rhoncus nisl. In hac habitasse platea dictumst. Fusce volutpat, nisi nec ullamcorper placerat, mi tortor porttitor nisl, id porttitor lectus tellus ac dolor.</p>
+                    Donec ac congue nunc. Integer sit amet sollicitudin nunc, sit amet ultricies nisl. Mauris scelerisque justo nec porttitor commodo. Suspendisse metus nunc, iaculis sit amet dignissim eu, sodales varius mi.</p>
+                    </div>
+                    
                 </div>
             </section>
             <!-- services section with divs for each section --> 
             <main>
+               
+                <div class="title"> <h2>Our Services</h2> </div>
             <section id="services">
-                <h2>Our Services</h2>
-                <div class= "big-service" id="digital">
+                <div class="service" id="digital">
                     <img src="images/digital.jpg" alt="">
                     <h3>Digital Transformation</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ac lectus non sodales. Morbi vitae ligula tempor, bibendum sapien id, efficitur magna. Sed at felis sit amet eros aliquam.</p>
-                    <a href="#">Digital Plans &#9654</a>
+                    <a href="#" class="blackbutton" >Digital Plans &#9654</a>
                 </div>
-                <div class= "big-service" id="marketing">
+                <div class= "service" id="marketing">
                     <img src="images/marketing.jpg" alt="">
                     <h3>Marketing</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ac lectus non sodales. Morbi vitae ligula tempor, bibendum sapien id, efficitur magna. Sed at felis sit amet eros aliquam.</p>
-                    <a href="#">Marketing Plans &#9654</a>
+                    <a href="#" class="blackbutton">Marketing Plans &#9654</a>
                 </div>
-                <div class= "small-service" id="video"> 
+                <div class= "service" id="video"> 
                     <img src="images/video.jpg" alt="">
                     <h3>Video Production</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ac lectus non sodales. Morbi vitae ligula tempor, bibendum sapien id, efficitur magna. Sed at felis sit amet eros aliquam.</p>
-                    <a href="#">Video Plans &#9654</a>
+                    <a href="#" class="blackbutton">Video Plans &#9654</a>
                 </div>
-                <div class= "small-service" id="web">
+                <div class= "service" id="web">
                     <img src="images/web.jpg" alt="">
                     <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ac lectus non sodales. Morbi vitae ligula tempor, bibendum sapien id, efficitur magna. Sed at felis sit amet eros aliquam.</p>
-                    <a href="#">Web Plans &#9654</a>
+                    <a href="#" class="blackbutton">Web Plans &#9654</a>
                 </div>
-                <div class= "small-service" id="print">
+                <div class= "service" id="print">
                     <img src="images/print.jpg" alt="">
                     <h3>Print</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ac lectus non sodales. Morbi vitae ligula tempor, bibendum sapien id, efficitur magna. Sed at felis sit amet eros aliquam.</p>
-                    <a href="#">Print Plans &#9654</a>
+                    <a href="#" class="blackbutton">Print Plans &#9654</a>
                 </div>
             </section>
             <!-- div for vision section --> 
             <div class= "vision" id="ourvision">
                 <h3>Our Vision</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ac lectus non sodales. Morbi vitae ligula tempor, bibendum sapien id, efficitur magna. Sed at felis sit amet eros aliquam.</p>
-                <a href="#">Learn More &#9654</a>
+                <a href="#" class="visionbutton">Learn More &#9654</a>
             </div>
             <!-- section for the team with divs for each person --> 
+            <h2>Our Team</h2>
             <section id="team">
-                <h2>Our Team</h2>
-                <div>
-                    <img src="images/john.jpg" alt="">
-                    <h3>John Doe</h3>
-                    <h4>CEO and Co-owner</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ac lectus non sodales. Morbi vitae ligula tempor, bibendum sapien id, efficitur magna. Sed at felis sit amet eros aliquam.</p>
+                
+                <div class="member" id="john">
+                    <img src="images/john.jpg" class="johnimg">
+                    <div id="johntext">
+                        <h3>John Doe</h3>
+                        <h4>CEO and Co-owner</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ac lectus non sodales. Morbi vitae ligula tempor, bibendum sapien id, efficitur magna. Sed at felis sit amet eros aliquam.</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/bob.jpg" alt="">
-                    <h3>Bob Rite</h3>
-                    <h4>CFO and Co-owner</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ac lectus non sodales. Morbi vitae ligula tempor, bibendum sapien id, efficitur magna. Sed at felis sit amet eros aliquam.</p>
+                <div class="member" id="bob">
+                    <img src="images/bob.jpg" alt="" class="bobimg">
+                    <div id="johntext">
+                        <h3>Bob Rite</h3>
+                        <h4>CFO and Co-owner</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ac lectus non sodales. Morbi vitae ligula tempor, bibendum sapien id, efficitur magna. Sed at felis sit amet eros aliquam.</p>   
+                    </div> 
                 </div>
             </section>
             <!-- contact section --> 
+            <h2>Contact Us</h2>
             <section id="contact">
-                <h2>Contact Us</h2>
                 <div class="contact">
                     <h3>Send us a message</h3>
                     <label for="name">Full Name</label>
@@ -110,35 +128,38 @@
                     <label for="messaage">Message</label>
                     <textarea id="messaage" name="messaage"></textarea>
 
-                    <input type="submit" value="Send">
+                    <input type="submit" value="Send" class="send">
                 </div>
-                <div>
+
+                <div class="location">
                     <h3>Location</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44863.11128251141!2d-75.8311433513672!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701284856272!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+
+                <!-- div for the hours table --> 
+                <div class="hourstable">
+                    <h3>Hours of Operation</h3>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9 AM - 6 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday - Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                        </tbody>
+                    </table>  
+                </div>
             </section>
-            <!-- div for the hours table --> 
-            <div class="hourstable">
-                <h3>Hours of Operation</h3>
-                <table>
-                    <thead>
-                    <tr>
-                        <th>Days</th>
-                        <th>Hours</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>Monday-Friday</td>
-                        <td>9 AM-6 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday-Sunday</td>
-                        <td>Closed</td>
-                    </tr>
-                    </tbody>
-                </table>  
-            </div>
+           
         </body>
     </main>
     <footer class="site-footer">
